@@ -31,11 +31,11 @@ height: 800px;
 display: grid;
 grid-template-columns: repeat(16, 1fr);
 grid-template-rows: repeat(16, 1fr);
-border: 4px solid yellow;
+border: 1px solid black;
 }
 
 .grid {
-background-color: blue;
+background-color: white;
 border: 2px solid black;
 }
 
@@ -65,7 +65,7 @@ const addGridSquare = () => {
 	container.appendChild(div);
     /* Add the mouse over event for changing the div color */
     div.addEventListener("mouseover", (event) => {
-        event.target.style.backgroundColor = "white";
+        event.target.style.backgroundColor = "black";
     });
 };
 
